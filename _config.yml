@@ -5,15 +5,15 @@
 # Note that if you are running a local Jekyll server (bundle exec jekyll serve),
 # this file will not be reloaded when it is edited--you must restart the server.
 
-title: "MUsic Technology Online Repository : Template"
+title: "MUsic Technology Online Repository"
 
-email: your-email@example.com
+email: xiao.fu@hfmt-hamburg.de
 
 description: ""
 
 url: https://mutor-2.github.io
 
-baseurl: /Template 
+baseurl: 
 
 # add the names of the contributors to the website here.
 # this is for people who actively work on the website, not for authors of units.
@@ -21,8 +21,8 @@ baseurl: /Template
 # color will be used to color the text of editorial notes (see example-unit.md)
 contributors:
  shortname:
-  fullname: First Last
-  email: first.last@hfmt-hamburg.de
+  fullname: John MacCallum
+  email: john.maccallum@hfmt-hamburg.de
   color: "#0000FF"
 
 # set this to true or false in order to display or
@@ -51,22 +51,24 @@ affiliates:
 # the order of the items in the menu will be the same as they
 # are listed here
 menu:
- - units
+ # - units
  # - events
- - references.md
- - discussion_questions.md
+ #- references.md
+ #- discussion_questions.md
+ - ScienceOfMusic:Science of Music
+ - HistoryAndPracticeOfMultimedia:History and Practice of Multimedia
  - about.md
  - team.md
- - downloads.md
+ #- downloads.md
 
 # these files will be excluded from processing
 exclude:
  - _units/*/_*
 
 # add other collections
-collections:
- units:
-  output: true
+# collections:
+#  units:
+#   output: true
 
 # do not change this.
 markdown: kramdown
