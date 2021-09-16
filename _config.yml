@@ -57,7 +57,7 @@ menu:
  #- discussion_questions.md
  - ScienceOfMusic:Science of Music
  - HistoryAndPracticeOfMultimedia:History and Practice of Multimedia
- - about.md
+ #- about.md
  - team.md
  #- downloads.md
 
